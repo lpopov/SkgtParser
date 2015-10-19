@@ -1,0 +1,25 @@
+
+
+@media (min-width: 100px) {
+    .one-half.column.labels {
+        text-align: center;
+    }
+    
+    .one-half.column.selects {
+        text-align: center;
+    }
+    
+    select { 
+        width: 200px;
+    }
+}
+
+@media (min-width: 550px) {
+    .one-half.column.labels {
+        text-align: right;
+    }
+    
+    .one-half.column.selects {
+        text-align: left;
+    }
+}
